@@ -89,3 +89,50 @@ The final sub-authority (RID) identifies the specific account type:
 - The hex string input should include the `0x` prefix.
 - Sub-authorities are unpacked as unsigned 32-bit little-endian integers (`<I` format).
 - The Identifier Authority is decoded as a 6-byte big-endian integer; for standard NT SIDs this will be `5` (NT Authority).
+
+
+
+⚠️ Disclaimer & Legal Warning
+
+This tool is provided for educational purposes and authorized security testing only.
+
+By using this software, you agree to the following terms:
+
+
+Authorized Use Only
+
+These tools are intended exclusively for:
+
+
+Penetration testing on systems you own or have been given explicit written permission to test
+Capture The Flag (CTF) challenges and lab environments (e.g. Hack The Box, TryHackMe, PG Practice)
+Security research in isolated, controlled environments
+Educational study of network protocols and authentication mechanisms
+
+
+
+No Responsibility / Liability Waiver
+
+The author(s) of this software accept no responsibility or liability for any damage, data loss, legal consequences, or harm caused by the use or misuse of these tools.
+
+This includes but is not limited to:
+
+
+Unauthorized access to computer systems or networks
+Interception of private communications or data
+Violation of local, national, or international law
+Any indirect, incidental, or consequential damages arising from use of this software
+
+
+
+Legal Notice
+
+Unauthorized use of these tools against systems without explicit permission may violate laws including but not limited to:
+
+
+Computer Fraud and Abuse Act (CFAA) — United States
+Computer Misuse Act 1990 — United Kingdom
+Cybercrime laws applicable in your jurisdiction
+
+
+You are solely responsible for ensuring your use of this software complies with all applicable laws and regulations.
